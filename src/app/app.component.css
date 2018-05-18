@@ -1,0 +1,43 @@
+.good {
+  display: block;
+  color: greenyellow;
+  background-color: black;
+  border: 1px solid silver;
+  margin: 3px;
+  width: fit-content;
+}
+
+.better {
+  display: flex;
+  color: greenyellow;
+  background-color: rebeccapurple;
+  border: 1px solid silver;
+  margin: 3px;
+  width: fit-content;
+}
+
+.content {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  border: 1px solid silver;
+  height: fit-content;
+}
+
+.prefix{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.container{
+  width: 450px;
+}
+
